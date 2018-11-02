@@ -1,1 +1,4 @@
-
+steinmann:
+  name: Stein Mann
+  email: steinmann@gmail.com
+  password_digest: <%= User.digest('password') %>
