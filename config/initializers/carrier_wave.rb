@@ -9,7 +9,7 @@ if Rails.env.production?
       region:                'us-east-2',
       endpoint:              'apigateway.us-east-2.amazonaws.com'
     }
-    config.fog_directory = ENV['AWS_S3_BUCKET']
+    config.fog_directory = 'steinmann'
     config.fog_public = false
   end
 end
