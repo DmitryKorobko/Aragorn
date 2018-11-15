@@ -39,3 +39,6 @@
 
 # Ignore uploaded test images.
 /public/uploads
+
+# Ignore AWS bucket credentials.
+/config/initializers/carrier_wave.rb
