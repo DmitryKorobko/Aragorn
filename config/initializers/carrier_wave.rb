@@ -9,6 +9,6 @@ if Rails.env.production?
       :bucket                => 'steinmann',
       :endpoint              => 'apigateway.us-east-2.amazonaws.com'
     }
-    config.fog_directory     =  'images'
+    config.fog_directory     =  'steinmann'
   end
 end
