@@ -1,0 +1,15 @@
+one:
+  follower: steinmann
+  followed: lana
+
+two:
+  follower: steinmann
+  followed: malory
+
+three:
+  follower: lana
+  followed: steinmann
+
+four:
+  follower: archer
+  followed: steinmann
